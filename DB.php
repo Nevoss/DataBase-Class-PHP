@@ -5,10 +5,10 @@ class DB {
 
 
   // DB connection property - The best way is to take it from Config File
-  private $dbHost = 'localhost',
-          $dbName = 'YourDbName',
-          $dbUser = 'YourDbUser',
-          $dbPassword = 'YourDbPassword';
+  private $dbHost = 'localhost', //Your HOST
+          $dbName = 'testdb', //Your Db Name
+          $dbUser = 'root', // Your Db User
+          $dbPassword = ''; // Your Db Password
 
   // This function will be execute where there is a problem with the sql that send to the DataBase
   private function errorMode($ErrorException){
